@@ -1,0 +1,11 @@
+[
+{"marca":"nike", "modelo":"airMax", "color":"negro","precio":"25000","id":1},
+{"marca":"nike", "modelo":"mercuri", "color":"blanco","precio":"27000","id":2},
+{"marca":"nike", "modelo":"tiempo", "color":"azul","precio":"28500","id":3},
+{"marca":"adidas", "modelo":"originals", "color":"verde","precio":"18000","id":4},
+{"marca":"adidas", "modelo":"style", "color":"verde","precio":"18000","id":5},
+{"marca":"adidas", "modelo":"skateboarding", "color":"rojo","precio":"22500","id":6},
+{"marca":"rebook", "modelo":"rewind", "color":"negro","precio":"15000","id":7},
+{"marca":"rebook", "modelo":"classic", "color":"blanco","precio":"12500","id":8},
+{"marca":"rebook", "modelo":"energyLux", "color":"marron","precio":"8900","id":9}
+]

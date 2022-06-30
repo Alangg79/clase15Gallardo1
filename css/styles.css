@@ -1,0 +1,123 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card {
+    width: 25%;
+    padding: 20px 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.cardImg {
+    width: 80%;
+}
+
+.cardPrice {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.buttonCTA {
+    
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 8px;
+    
+}
+
+.buttonCTA:hover {
+    background-color: rgb(51, 39, 167);
+    box-shadow: 1px 1px 10px lightgrey;
+}
+
+.cartContainer {
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.cartRow {
+    border: 1px solid gray;
+    width: 70%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartHeader {
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+.cartImg {
+    width: 15%;
+}
+
+.cartImg img {
+    width: 100%;
+}
+
+.cartTitle {
+    width: 35%;
+}
+
+.cartDesc {
+    width: 25%;
+}
+
+.cartPrice {
+    width: 25%;
+}
+
+
+.formContainer {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+
+.formContainer form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30%;
+}
+
+.formContainer input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.formContainer input[type=submit] {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(89, 168, 89);
+    color: white;
+}
